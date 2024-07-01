@@ -11,6 +11,13 @@ return {
           vim.bo.shiftwidth = 4
         end
       })
+      autocmd("FileType", {
+        pattern = "java",
+        callback = function()
+          vim.bo.tabstop = 4
+          vim.bo.shiftwidth = 4
+        end
+      })
     end
   }
 }
