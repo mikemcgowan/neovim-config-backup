@@ -40,11 +40,3 @@ end)
 
 -- added by Mike
 vim.lsp.set_log_level("debug")
-
--- added by Mike
-local autocmd = vim.api.nvim_create_autocmd
-autocmd("VimEnter", {
-  callback = function()
-    require("nvim-tree.api").tree.open()
-  end,
-})
