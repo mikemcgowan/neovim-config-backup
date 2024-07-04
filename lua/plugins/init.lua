@@ -27,16 +27,6 @@ return {
     },
   },
 
-  -- added by Mike
-  {
-    "nvim-tree/nvim-tree.lua",
-    opts = {
-      filters = {
-        dotfiles = true,
-      },
-    },
-  },
-
 --{
 --  "nvim-treesitter/nvim-treesitter",
 --  opts = {
