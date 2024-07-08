@@ -23,6 +23,7 @@ return {
         "stylua",
         "kotlin-language-server",
         "jdtls",
+        "ruby-lsp",
       },
     },
   },
