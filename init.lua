@@ -37,6 +37,3 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
-
--- added by Mike
-vim.lsp.set_log_level("debug")
