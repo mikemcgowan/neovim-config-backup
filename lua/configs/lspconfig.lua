@@ -10,6 +10,7 @@ local servers = { "html", "cssls" }
 table.insert(servers, "kotlin_language_server")
 table.insert(servers, "jdtls")
 table.insert(servers, "ruby_lsp")
+table.insert(servers, "lemminx")
 
 -- lsps with default config
 for _, lsp in ipairs(servers) do

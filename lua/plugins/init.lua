@@ -24,6 +24,7 @@ return {
         "kotlin-language-server",
         "jdtls",
         "ruby-lsp",
+        "lemminx",
       },
     },
   },
