@@ -7,6 +7,7 @@ local o = vim.o
 o.expandtab = true
 o.list = true
 o.listchars = "tab:>-,space:·"
+o.scrolloff = 999
 
 -- added by Mike
 local wo = vim.wo
