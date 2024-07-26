@@ -7,6 +7,7 @@ local o = vim.o
 o.expandtab = true
 o.list = true
 o.listchars = "tab:>-,space:·"
+o.backupdir = "~/.local/state/nvim/backup//"
 
 -- added by Mike
 local wo = vim.wo
